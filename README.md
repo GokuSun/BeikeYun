@@ -1,5 +1,6 @@
 # BeikeYun
-Description how to update firmware for BeikeYun and use it for PT  
+资料来源：https://www.jianshu.com/p/21d3954231dc （配置、版本、以及焊接线序等都有介绍，很详细，本文不在赘述，本文主要总结一下刷机过程以及拷机过程遇到的一些问题）  
+
 1:如何看贝壳云版本
 拆机（只有三个螺丝，拆了之后，用平口螺丝刀撬开即可，大力出奇迹），拆开外壳后将主板1个螺丝下了之后就可以看到主板背面的标签，A3或A4版本一目了然，A3版本不带电阻无需拆解，其他版本要把usb附近的6个电阻干掉  
 
@@ -9,7 +10,7 @@ Description how to update firmware for BeikeYun and use it for PT
 否则刷机软件一直会显示发现一个adb设备，也就是没有进入maskrom，而是进入了系统  
 四根线的红色为VCC 白色为DATA- 绿色为DATA+ 黑色为GND  
 
-贝壳云速度测试命令 需先挂在硬盘 然后进入挂在的分区再输入命令  
+贝壳云速度测试命令，需先挂在硬盘，然后进入挂在的分区再输入命令  
 time dd bs=1M count=1024 if=/dev/zero of=test conv=fsync  
 
 3：拷机  
