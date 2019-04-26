@@ -57,3 +57,5 @@ https://docs.docker.com/get-started/
 
 拷机命令  
 docker run --rm 80x86/cpuminer-multi:latest cpuminer -t20 --benchmark -a cryptolight  
+
+http://rom.nanodm.net/beikeyun/tool/win/ 为刷机基本工具包含AndroidTool及DriverAssitant
