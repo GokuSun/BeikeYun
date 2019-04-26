@@ -10,7 +10,7 @@
 否则刷机软件一直会显示发现一个adb设备，也就是没有进入maskrom，而是进入了系统  
 四根线的红色为VCC 白色为DATA- 绿色为DATA+ 黑色为GND  
 ![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/贝壳云刷机焊点示意图.jpg)  
-贝壳云速度测试命令，需先挂在硬盘，然后进入挂在的分区再输入命令  
+贝壳云速度测试命令，需先挂载硬盘，然后进入挂在的分区再输入命令  
 time dd bs=1M count=1024 if=/dev/zero of=test conv=fsync  
 
 3：拷机  
