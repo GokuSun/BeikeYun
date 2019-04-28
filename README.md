@@ -21,6 +21,7 @@ HDMI
 刷机的时候焊接usb3根线，红线不用焊接，如果焊接了，插上usb就会开机，那么在刷机的时候就需要先短接maskrom点，然后再插入usb，然后再插入电源，否则刷机软件一直会显示发现一个adb设备，也就是没有进入maskrom，而是进入了Android系统。
 四根线的红色为VCC 白色为DATA- 绿色为DATA+ 黑色为GND  
 ![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/贝壳云刷机焊点示意图.jpg)   
+具体刷机步骤参考：https://www.jianshu.com/p/21d3954231dc （配置、版本、需要的文件以及焊接线序等都有介绍，很详细，本文不在赘述，本文主要总结一下刷机过程以及拷机过程遇到的一些问题）  
   
 五、贝壳云usb速度测试：.
 首先关机状态下插上移动硬盘（建议用固态或者好点的机械硬盘，如果硬盘用了几十年，本身传输速度就不行了，会影响测试结果的判断）    
@@ -86,6 +87,6 @@ docker run --rm 80x86/cpuminer-multi:latest cpuminer -t20 --benchmark -a cryptol
 docker run --rm 80x86/cpuminer-multi:latest cpuminer -t80 --benchmark -a cryptolight    
 然后新开一个ssh窗口连接贝壳云，输入htop查看cpu温度     
 http://rom.nanodm.net/beikeyun/tool/win/ 为刷机基本工具包含AndroidTool及DriverAssitant   
-资料来源：https://www.jianshu.com/p/21d3954231dc （配置、版本、以及焊接线序等都有介绍，很详细，本文不在赘述，本文主要总结一下刷机过程以及拷机过程遇到的一些问题）  
+
 
 
