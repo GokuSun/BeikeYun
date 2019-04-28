@@ -94,5 +94,7 @@ docker run --rm 80x86/cpuminer-multi:latest cpuminer -t80 --benchmark -a cryptol
 然后新开一个ssh窗口连接贝壳云，输入htop查看cpu温度     
 http://rom.nanodm.net/beikeyun/tool/win/ 为刷机基本工具包含AndroidTool及DriverAssitant   
 
+![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/Loadaverage20测试界面.jpg)  
+
 
 
