@@ -22,6 +22,7 @@ HDMI
 四根线的红色为VCC 白色为DATA- 绿色为DATA+ 黑色为GND  
 ![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/贝壳云刷机焊点示意图.jpg)   
 具体刷机步骤参考：https://www.jianshu.com/p/21d3954231dc （配置、版本、需要的文件以及焊接线序等都有介绍，很详细，本文不在赘述，本文主要总结一下刷机过程以及拷机过程遇到的一些问题）  
+灯大的软件下载网址：http://rom.nanodm.net/beikeyun/tool/win/
   
 五、贝壳云USB速度测试：.
 首先关机状态下插上移动硬盘（建议用固态或者好点的机械硬盘，如果硬盘用了几十年，本身传输速度就不行了，会影响测试结果的判断）    
@@ -44,7 +45,7 @@ time dd bs=1M count=1024 if=/dev/zero of=test conv=fsync
 
 如下图：
 ![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/测试贝壳云U口速度.jpg)  
-3：拷机  
+六：贝壳云拷机测试  
 拷机需要先安装dockerCE，先看群作业里的docker安装方式  
 主要在Debian 安装 Docker CE这一章  
 我直接使用了使用脚本自动安装  
