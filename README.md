@@ -77,9 +77,12 @@ For more examples and ideas, visit:
 https://docs.docker.com/get-started/  
 若能正常输出以上信息，则说明安装成功。  
 
-拷机命令  
-docker run --rm 80x86/cpuminer-multi:latest cpuminer -t20 --benchmark -a cryptolight  
-  
+拷机命令：       
+想要：Load average 20输入如下命令  
+docker run --rm 80x86/cpuminer-multi:latest cpuminer -t20 --benchmark -a cryptolight    
+想要：Load average 80输入如下命令  
+docker run --rm 80x86/cpuminer-multi:latest cpuminer -t80 --benchmark -a cryptolight    
+然后新开一个ssh窗口连接贝壳云，输入htop查看cpu温度     
 http://rom.nanodm.net/beikeyun/tool/win/ 为刷机基本工具包含AndroidTool及DriverAssitant   
 资料来源：https://www.jianshu.com/p/21d3954231dc （配置、版本、以及焊接线序等都有介绍，很详细，本文不在赘述，本文主要总结一下刷机过程以及拷机过程遇到的一些问题）  
 
