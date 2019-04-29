@@ -22,7 +22,7 @@ HDMI
 四根线的红色为VCC 白色为DATA- 绿色为DATA+ 黑色为GND  
 ![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/贝壳云刷机焊点示意图.jpg)   
 具体刷机步骤参考：https://www.jianshu.com/p/21d3954231dc （配置、版本、需要的文件以及焊接线序等都有介绍，很详细，本文不在赘述，本文主要总结一下刷机过程以及拷机过程遇到的一些问题）  
-灯大的软件下载网址：http://rom.nanodm.net/beikeyun/tool/win/
+灯大的软件下载网址：http://rom.nanodm.net/beikeyun/tool/win/ 刷机基本工具包含AndroidTool及DriverAssitant   
   
 五、贝壳云USB速度测试：.
 首先关机状态下插上移动硬盘（建议用固态或者好点的机械硬盘，如果硬盘用了几十年，本身传输速度就不行了，会影响测试结果的判断）    
@@ -92,9 +92,7 @@ https://docs.docker.com/get-started/
 docker run --rm 80x86/cpuminer-multi:latest cpuminer -t20 --benchmark -a cryptolight    
 想要：Load average 80输入如下命令  
 docker run --rm 80x86/cpuminer-multi:latest cpuminer -t80 --benchmark -a cryptolight    
-然后新开一个ssh窗口连接贝壳云，输入htop查看cpu温度     
-http://rom.nanodm.net/beikeyun/tool/win/ 为刷机基本工具包含AndroidTool及DriverAssitant   
-
+然后新开一个ssh窗口连接贝壳云，输入htop查看cpu温度      
 ![Image](https://github.com/GokuSun/BeikeYun/blob/master/images/Loadaverage20测试界面.jpg)  
 
 
